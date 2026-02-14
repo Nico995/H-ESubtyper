@@ -1,0 +1,12 @@
+csv_dataset: ???
+outer_folds: ???
+inner_folds: ???
+outer_val_frac: ???
+samples_to_exclude: []
+dataset_name: immucan
+
+out_dir: ${paths.splits_dir}/${data_split.dataset_name}_${data_split.outer_folds}_${data_split.inner_folds}/
+
+label_col: bar_subtype
+# TODO: use classification config
+classes: ["leh_bl1", "leh_im", "leh_lar", "leh_m", "leh_msl"]

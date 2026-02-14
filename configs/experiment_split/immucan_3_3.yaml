@@ -1,0 +1,13 @@
+# @package _global_
+
+defaults:
+  - override /data_split: immucan
+
+seed: 42
+
+data_split:
+  csv_dataset: /mnt/bctl/nocc0001/data/breast/immucan/metadata/sample_list_cleaner.csv
+  dataset_name: immucan
+  outer_folds: 3
+  inner_folds: 3
+  outer_val_frac: 0.1

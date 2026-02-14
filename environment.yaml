@@ -1,0 +1,91 @@
+name: env
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+
+dependencies:
+  # --- core ---
+  - python=3.10
+  - pip
+  - setuptools
+  - wheel
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+
+  # --- numeric / scientific ---
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - statsmodels
+  - numexpr
+  - bottleneck
+
+  # --- plotting / viz ---
+  - matplotlib
+  - seaborn
+  - cairo
+  - cairocffi
+  - pillow
+  - fonttools
+
+  # --- imaging / pathology ---
+  - openslide
+  - openslide-python
+  - opencv
+  - shapely
+  - openjpeg
+  - lcms2
+  - libtiff
+  - libpng
+  - libjpeg-turbo
+
+  # --- lightning / metrics ---
+  - pytorch-lightning
+  - lightning
+  - torchmetrics
+
+  # --- configuration / sweeps ---
+  - hydra-core
+  - hydra-colorlog
+  - omegaconf
+  - optuna
+  - cmaes
+
+  # --- utilities ---
+  - tqdm
+  - joblib
+  - pyyaml
+  - rich
+  - packaging
+  - rootutils
+  - python-dotenv
+  - sqlalchemy
+  - colorlog
+  - fsspec
+  - filelock
+
+  # --- tensorboard only ---
+  - tensorboard
+  - tensorboard-data-server
+
+  # --- dev / jupyter ---
+  - ipython
+  - ipykernel
+  - jupyterlab
+  - notebook
+  - pytest
+
+  # --- system libs that often break ---
+  - ffmpeg
+  - freetype
+  - harfbuzz
+  - pango
+  - glib
+  - fontconfig
+  - libxml2
+  - zlib
+  - zstd

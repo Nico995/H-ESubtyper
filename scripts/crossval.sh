@@ -1,0 +1,1 @@
+python train.py -m experiment=default embeddings=model1_large fold.outer=0 fold.inner=full seed=42 trainer.max_epochs=20 callbacks.early_stopping.patience=21

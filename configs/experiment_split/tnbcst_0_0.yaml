@@ -1,0 +1,14 @@
+# @package _global_
+
+defaults:
+  - override /data_split: immucan
+
+seed: 42
+
+data_split:
+  csv_dataset: /mnt/bctl/nocc0001/data/breast/tnbc_st/sample_list_clean.csv
+  dataset_name: tnbcst
+  outer_folds: 0
+  inner_folds: 0
+  outer_val_frac: 0
+

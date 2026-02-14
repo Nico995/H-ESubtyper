@@ -1,0 +1,3 @@
+num_classes: 5
+label_col: bar_subtype
+classes: ["leh_bl1", "leh_im", "leh_lar", "leh_m", "leh_msl"]

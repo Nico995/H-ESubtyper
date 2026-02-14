@@ -1,0 +1,12 @@
+# @package _global_
+
+# specify here default configuration
+# order of defaults determines the order in which configs override each other
+defaults:
+  - _self_
+  - data_split: immucan
+  - paths: default
+  - experiment_split: null
+
+task_name: "split"
+seed: 42

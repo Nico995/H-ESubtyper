@@ -1,0 +1,4 @@
+model_name: model1
+mag_size: 512
+embed_dim: 1536
+feat_folder: 20x_${embeddings.mag_size}px_0px_overlap/features_${embeddings.model_name}

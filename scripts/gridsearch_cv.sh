@@ -1,0 +1,1 @@
+ python train.py -m experiment=default embeddings=model2_large model.network.mutual_exclusive=mutual_exclusive fold.outer=0,1,2 fold.inner=full seed=42

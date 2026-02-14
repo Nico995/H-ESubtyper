@@ -1,0 +1,21 @@
+# @package _global_
+
+defaults:
+  - _self_
+  - data: immucan_base
+  - model: default
+  - logger: tensorboard
+  - trainer: default
+  - paths: default
+  - extras: default
+  - embeddings: default
+  - classification: bareche
+  - hydra: default
+  - experiment: null
+
+task_name: "eval"
+
+tags: ["dev"]
+
+# passing checkpoint path is necessary for evaluation
+ckpt_path: ???

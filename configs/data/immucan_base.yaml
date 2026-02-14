@@ -1,0 +1,20 @@
+_target_: src.data.datamodule.MILClassificationDataModule
+# _partial_: True
+classes: ???
+splits_root: ???
+batch_size: 1
+num_workers: 16
+pin_memory: True
+training: True
+
+dataset: 
+  _target_: src.data.components.dataset.MILClassificationDataset
+  _partial_: True
+  features_root: ???
+  label_col: ???
+  classes: ${data.classes}
+  # shuffle_tiles
+  instance_dropout: 0
+  instance_mask: 0
+  max_tiles: -1
+  pos_embedding_dim: 0

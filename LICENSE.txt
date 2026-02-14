@@ -1,0 +1,9 @@
+Copyright (c) 2026 Nicola Occelli
+
+All rights reserved.
+
+This code is provided for inspection, educational, and evaluation purposes only.
+
+Unauthorized copying, modification, distribution, or use of this code or its
+derivatives for research, commercial, or production purposes is prohibited
+without explicit written permission from the author.
